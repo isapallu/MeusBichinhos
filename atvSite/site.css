@@ -1,0 +1,36 @@
+.imgRedonda{
+    border-radius: 50%;
+    text-align: center;
+}
+.fichas{
+    text-align: center;
+}
+.sobre{ 
+    text-align: center;
+}
+body{
+    background-color: rgb(245, 233, 218);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.centralizar{
+    text-align: center;
+}
+#nomeLua{
+    font-family: cursive;
+    font-size: 35px;
+}
+.titulo{
+    font-size: 35px;
+    font-family: cursive
+}
+.final{
+    background-color: black;
+    width: 1000px;
+    height: 1px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
