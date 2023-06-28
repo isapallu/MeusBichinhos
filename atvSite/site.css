@@ -1,36 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .imgRedonda{
     border-radius: 50%;
     text-align: center;
 }
-.fichas{
-    text-align: center;
-}
-.sobre{ 
-    text-align: center;
-}
 body{
-    background-color: rgb(245, 233, 218);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FFFCF7;
+    color: #2B2B2B;
+    font-family: 'Courier New', Courier, monospace;
+}
+.posicao{
+    display: flex;
+    margin-left: 25px;
+}
+.posicaoLua{
+    display: flex;
+    margin-left: 100px;
+}
+.posicaoMimi{
+    display: flex;
+    margin-left: 100px;
+}
+.posicaoWhey{
+    display: flex;
+    margin-left: 100px;
+}
+.posicaoCreatina{
+    display: flex;
+    margin-left: 300px;
+}
+.posicaoAnny{
+    display: flex;
+    margin-left: 100px;
+}
+#Lua{
+    display: flex;
+    margin-left: 120px;
+}
+#Mimi{
+    display: flex;
+    margin-left: 150px;
+}
+#Whey{
+    display: flex;
+    padding-left: 170px;
+}
+#Creatina{
+    display: flex;
+    margin-left: 320px;
+}
+#Anny{
+    display: flex;
+    margin-left: 150px;
+}
+#linha1{
+    display: flex;
+    flex-direction: row;
+}
+#texto1{
+    display: flex;
+    flex-direction: row;
+}
+#linha2{
+    display: flex;
+    flex-direction: row;
+}
+#texto2{
+    display: flex;
+    flex-direction: row;
+}
+.ficha{
     text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
 }
-.centralizar{
-    text-align: center;
-}
-#nomeLua{
-    font-family: cursive;
-    font-size: 35px;
-}
-.titulo{
-    font-size: 35px;
-    font-family: cursive
-}
-.final{
-    background-color: black;
-    width: 1000px;
-    height: 1px;
-}
-h1{
-    text-align: center;
-    font-size: 50px;
-    font-family: cursive;
-}
+/*@font-face {
+    font-family: "RobotoRegular";
+    src: url("Roboto-Regular.ttf");
+} 
+--> como botar uma fonte nova:
+google fonts --> baixar */
